@@ -1,20 +1,10 @@
 import React from "react";
 import Typography from "@material-ui/core/Typography";
-import { makeStyles } from "@material-ui/core/styles";
-import Button from "@material-ui/core/Button";
 
-const useStyles = makeStyles((theme) => ({
-  sectionTitle: {
-    margin: "5px 0 20px",
-    fontWeight: "bold",
-  },
-  sectionDescription: {
-    fontSize: "1.2rem",
-  },
-}));
+import styles from "../styles/CustomStyles";
 
 const Vision = () => {
-  const classes = useStyles();
+  const classes = styles();
   return (
     <div id="vision">
       <Typography variant="h2" color="primary" className={classes.sectionTitle}>

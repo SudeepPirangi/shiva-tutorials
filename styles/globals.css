@@ -56,17 +56,24 @@ span.primary {
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  padding: 30px 15px 40px 25%;
+  padding: 10px 10px 10px 25%;
   color: #000;
 }
 #vision {
-  padding: 20px;
   width: 60%;
   margin: auto;
   text-align: center;
 }
-.section-title {
-  margin: 10px auto;
+
+/* Expertise */
+.flex-row-evenly {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
 }
-.section-description {
+.cards-section {
+  /* margin-top: 6rem; */
+  margin-bottom: 3rem;
+  padding: 15px 0;
 }

@@ -1,13 +1,20 @@
 import Head from "next/head";
-import { CssBaseline, Typography, Button, Link } from "@material-ui/core";
+import {
+  CssBaseline,
+  Typography,
+  Button,
+  Link,
+  Slider,
+} from "@material-ui/core";
 import { Phone } from "@material-ui/icons";
 import { ThemeProvider } from "@material-ui/styles";
 
 import Header from "../components/Header";
 import Footer from "../components/Footer";
-import DarkTheme from "../styles/DarkTheme";
 import Hero from "../components/Hero";
 import Vision from "../components/Vision";
+import Expertise from "../components/Expertise";
+import DarkTheme from "../styles/DarkTheme";
 
 export default function Home() {
   return (
@@ -41,6 +48,9 @@ export default function Home() {
         <Hero />
         <section className="floating-section">
           <Vision />
+        </section>
+        <section>
+          <Expertise />
         </section>
       </main>
 
