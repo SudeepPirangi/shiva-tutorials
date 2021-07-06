@@ -48,7 +48,7 @@ function Expertise() {
       </Typography>
       <div className="flex-row-evenly cards-section">
         {subjects.map((subject) => {
-          return <MediaCard {...subject} />;
+          return <MediaCard key={subject.id} {...subject} />;
         })}
       </div>
     </>
