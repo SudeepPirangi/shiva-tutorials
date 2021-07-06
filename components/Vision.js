@@ -6,7 +6,7 @@ import styles from "../styles/CustomStyles";
 const Vision = () => {
   const classes = styles();
   return (
-    <div id="vision">
+    <div className="vision">
       <Typography variant="h2" color="primary" className={classes.sectionTitle}>
         Vision
       </Typography>

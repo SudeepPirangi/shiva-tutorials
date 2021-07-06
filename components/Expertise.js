@@ -11,7 +11,7 @@ import styles from "../styles/CustomStyles";
 const useStyles = makeStyles({
   root: {
     maxWidth: "25%",
-    boxShadow: "0 8px 5px 5px rgba(255,255,255,0.2)",
+    boxShadow: "2px 10px 33px 10px #00000099",
   },
   media: {
     height: 140,

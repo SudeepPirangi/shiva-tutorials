@@ -1,6 +1,5 @@
 import { createMuiTheme } from "@material-ui/core/styles";
-import red from "@material-ui/core/colors/purple";
-import green from "@material-ui/core/colors/green";
+import { indigo, blue } from "@material-ui/core/colors";
 
 // import PermanentMarker from "../public/fonts/Permanent_Marker/PermanentMarker-Regular.ttf";
 // import Courgette from "../public/fonts/Courgette/Courgette-Regular.ttf";
@@ -22,9 +21,11 @@ import green from "@material-ui/core/colors/green";
 const DarkTheme = createMuiTheme({
   palette: {
     type: "dark",
-    primary: green,
+    primary: {
+      main: "#e52165",
+    },
     secondary: {
-      main: "#b9f6ca",
+      main: "#f3ca20",
     },
   },
   typography: {
@@ -34,6 +35,9 @@ const DarkTheme = createMuiTheme({
     },
     h4: {
       fontFamily: "Courgette",
+    },
+    textSecondary: {
+      fontWeight: "bold",
     },
   },
 });

@@ -52,9 +52,15 @@ const Header = (props) => {
         <Typography variant="h5" color="primary" className={classes.title}>
           Shiva Tutorials
         </Typography>
-        <Button color="secondary">Subjects</Button>
-        <Button color="secondary">About Us</Button>
-        <Button color="secondary">Contact Us</Button>
+        <Button href="#vision" color="secondary">
+          Vision
+        </Button>
+        <Button href="#expertise" color="secondary">
+          Expertise
+        </Button>
+        <Button href="#contactus" color="secondary">
+          Contact Us
+        </Button>
       </Toolbar>
     </AppBar>
   );

@@ -6,7 +6,6 @@ import {
   Link,
   Slider,
 } from "@material-ui/core";
-import { Phone } from "@material-ui/icons";
 import { ThemeProvider } from "@material-ui/styles";
 
 import Header from "../components/Header";
@@ -14,6 +13,7 @@ import Footer from "../components/Footer";
 import Hero from "../components/Hero";
 import Vision from "../components/Vision";
 import Expertise from "../components/Expertise";
+import AboutUs from "../components/AboutUs";
 import DarkTheme from "../styles/DarkTheme";
 
 export default function Home() {
@@ -46,11 +46,14 @@ export default function Home() {
 
       <main>
         <Hero />
-        <section className="floating-section">
+        <section className="floating-section" id="vision">
           <Vision />
         </section>
-        <section>
+        <section id="expertise">
           <Expertise />
+        </section>
+        <section id="contactus">
+          <AboutUs />
         </section>
       </main>
 
