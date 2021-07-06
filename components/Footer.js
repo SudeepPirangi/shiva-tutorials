@@ -21,7 +21,11 @@ const Footer = () => {
     <footer>
       <div className={styles.footer}>
         &copy; Copyright 2021, Developed by&nbsp;
-        <a href="https://www.linkedin.com/in/sudeepp/" target="_blank">
+        <a
+          href="https://www.linkedin.com/in/sudeepp/"
+          target="_blank"
+          rel="noreferrer"
+        >
           Sudeep Pirangi
         </a>
       </div>

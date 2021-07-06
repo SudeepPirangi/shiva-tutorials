@@ -71,7 +71,11 @@ const AboutUs = () => {
                 </a>
               </p>
               <p className="linkedIn">
-                <a href="https://www.linkedin.com/in/sudeepp/" target="_blank">
+                <a
+                  href="https://www.linkedin.com/in/sudeepp/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   <LinkedIn /> https://www.linkedin.com/in/sudeepp/
                 </a>
               </p>
